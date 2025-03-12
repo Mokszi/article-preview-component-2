@@ -65,8 +65,40 @@ section{
 }
 
 .share{
-    padding: 2%;
+    display: flex;
+    padding: 8%;
     margin-left: auto;
     background-color: hsl(210, 46%, 95%);
-    border-radius: 100%;
+    border-radius: 100px;
+    width: 1px;
+    height: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.share:hover{
+    background-color: hsl(214, 17%, 51%);
+    fill: white;
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.rectangle{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.triangle-down{
+	width: 0;
+	height: 0;
+	border-left: 12.5px solid transparent;
+	border-right: 12.5px solid transparent;
+	border-top: 15px solid hsl(217, 19%, 35%);
 }
